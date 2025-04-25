@@ -1,0 +1,33 @@
+I have installed Android studio and flutter.
+Navigate to the folder where you wish to store the prgrams/applications,(I have made a new folder in D drive/ Flutter Projects) open that in cmd by rightclick
+then create a new flutter project there using command "flutter create projectname"
+once the project is created, open android studio/vs code and there open the project folder.
+
+Goto /lib/main.dart    replace the exisiting code with the one present in the mail
+
+after running them successfully
+
+
+follow the rest of the steps to push them into the repo
+open terminal in android studio/ VS code -> then click on + to add the git bash terminal
+in git bash do the following
+
+NOTE: PREFER VS CODE, Android studio might crash the device, use chrome to check the output
+
+git init
+
+----> //optional => git add README.md  <----
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sharmavaibhav31/flutter_fundamentals.git
+
+
+
+
+check the status of the files -> git status
+if the file names are red in color- this means that they are not added to the repo, run command 
+git add .
+then 
+git commit -m "Message/application name"
+git push
+
